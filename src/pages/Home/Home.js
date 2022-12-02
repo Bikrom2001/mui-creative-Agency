@@ -1,18 +1,19 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import Branding from './Branding/Branding';
+import Brands from './Brands/Brands';
+import Faq from './Faq/Faq';
+import OurWorks from './OurWorks/OurWorks';
+import Services from './Services/Services';
+
 
 const Home = () => {
    return (
       <div>
-         <Typography
-            textAlign='center'
-            color='primary.main'
-            variant='h4'
-            my={2}
-         >
-            Let's learn the basic of material ui! start by crating the header
-            component and add it on the layout component
-         </Typography>
+        <Branding></Branding>
+        <Brands></Brands>
+        <Services></Services>
+        <OurWorks></OurWorks>
+        <Faq></Faq>
       </div>
    );
 };
